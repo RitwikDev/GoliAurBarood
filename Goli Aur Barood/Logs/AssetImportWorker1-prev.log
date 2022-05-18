@@ -1,0 +1,602 @@
+Unity Editor version:    2020.3.25f1 (9b9180224418)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6 (Build 20G165)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/ritwikdev/Unity Projects/Goli Aur Barood
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55550
+Successfully changed project path to: /Users/ritwikdev/Unity Projects/Goli Aur Barood
+/Users/ritwikdev/Unity Projects/Goli Aur Barood
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ritwikdev/Unity Projects/Goli Aur Barood/Assets
+GfxDevice: creating device client; threaded=0
+2022-02-06 17:18:03.708 Unity[5686:396335] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2022-02-06 17:18:03.708 Unity[5686:396335] Metal devices available: 1
+2022-02-06 17:18:03.708 Unity[5686:396335] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2022-02-06 17:18:03.709 Unity[5686:396335] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56686
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000977 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.116 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1117ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (902ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.275 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2276ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1915ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (633ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (787ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (534ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.028062 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.006562 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2566 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.5 MB.
+System memory in use after: 212.8 MB.
+
+Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 3041.
+Total: 5.529073 ms (FindLiveObjects: 0.283704 ms CreateObjectMapping: 0.137038 ms MarkObjects: 4.297151 ms  DeleteObjects: 0.809655 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(1a4b6d0ff2db9467082fe1284a6392ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(1a4b6d0ff2db9467082fe1284a6392ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f56f4de34b3ebab9b66fc715996f8e8') in 1.619529 seconds 
+  Import took 1.635416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.300355 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad42f238befc9141ff323b47aa7d98b3') in 0.027657 seconds 
+  Import took 0.035168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.647967 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6940e8d80a4b29eafe0a80d23e0aab1b') in 0.052778 seconds 
+  Import took 0.061804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.301491 seconds.
+  path: Assets/Prefabs/EnemySpawnLocation.prefab
+  artifactKey: Guid(9ee08e243923942b1943559679b1d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemySpawnLocation.prefab using Guid(9ee08e243923942b1943559679b1d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8043cd30098d95e403ab9e918b7c740e') in 0.011365 seconds 
+  Import took 0.018575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.851078 seconds.
+  path: Assets/Prefabs/PowerUp.prefab
+  artifactKey: Guid(88b834757f17640668782d25701dd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp.prefab using Guid(88b834757f17640668782d25701dd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee2cf06771fd55dafc1c5f12c3ffc1d') in 0.044836 seconds 
+  Import took 0.056410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.269827 seconds.
+  path: Assets/Prefabs/Canvas.prefab
+  artifactKey: Guid(0da1d253380814a92b929a00bc979706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Canvas.prefab using Guid(0da1d253380814a92b929a00bc979706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6fca797ec4bb304ea9361789747e94') in 0.022474 seconds 
+  Import took 0.028748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.113458 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c4af26b99d49b7c22efc2fcc716fd0') in 0.057671 seconds 
+  Import took 0.064951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.743486 seconds.
+  path: Assets/Prefabs/Main Camera.prefab
+  artifactKey: Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Main Camera.prefab using Guid(36bd9fd970f8d4b8fa8d93ca7cf3ac84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c054bb727c3755470ef3fd11bc8d4dee') in 0.058596 seconds 
+  Import took 0.071403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.437444 seconds.
+  path: Assets/Prefabs/EnemySpawnLocation.prefab
+  artifactKey: Guid(9ee08e243923942b1943559679b1d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/EnemySpawnLocation.prefab using Guid(9ee08e243923942b1943559679b1d29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a4cbf89190337415ff6f03f2950e8b') in 0.007233 seconds 
+  Import took 0.017554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.143362 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(579ce7ac1dc714a95a08012add004702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(579ce7ac1dc714a95a08012add004702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2c4f242d13a2124f056502b24b0ae1') in 0.024778 seconds 
+  Import took 0.044920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.590651 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(579ce7ac1dc714a95a08012add004702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(579ce7ac1dc714a95a08012add004702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6aadffcbdaab28d0880f1fc51c7dff3') in 0.021988 seconds 
+  Import took 0.043398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.748941 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(729f000424a7847ca93064435588e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(729f000424a7847ca93064435588e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36cbd9081e5202255999ca78f718e66b') in 0.049492 seconds 
+  Import took 0.062774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.560869 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(729f000424a7847ca93064435588e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(729f000424a7847ca93064435588e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f87ce0045dd7407f0cfeb6355e6445') in 0.044176 seconds 
+  Import took 0.058398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.118833 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(1a4b6d0ff2db9467082fe1284a6392ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(1a4b6d0ff2db9467082fe1284a6392ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5186317fc2c8ad8cf6b68f6e11fd1099') in 0.053854 seconds 
+  Import took 0.067545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.169469 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(1a4b6d0ff2db9467082fe1284a6392ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(1a4b6d0ff2db9467082fe1284a6392ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6974dca95d99b96b524546f3d362ce46') in 0.055681 seconds 
+  Import took 0.065448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.227345 seconds.
+  path: Assets/Prefabs/PowerUp.prefab
+  artifactKey: Guid(88b834757f17640668782d25701dd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp.prefab using Guid(88b834757f17640668782d25701dd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f5ffa4d1eaf9c8061ef519fee14169') in 0.026929 seconds 
+  Import took 0.044106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.168197 seconds.
+  path: Assets/Prefabs/PowerUp.prefab
+  artifactKey: Guid(88b834757f17640668782d25701dd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PowerUp.prefab using Guid(88b834757f17640668782d25701dd72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbb6fe9ca06166b9c1c214932e6846e') in 0.039136 seconds 
+  Import took 0.054441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.853632 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-01.png
+  artifactKey: Guid(60673d8cce65e8148a1ea89f188567de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-01.png using Guid(60673d8cce65e8148a1ea89f188567de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212b2a15c06fc3a6552403cf6d4001b5') in 1.200189 seconds 
+  Import took 1.212651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-mountain-01.png
+  artifactKey: Guid(debd6f7493e1cb84faec81df0d6b5347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-mountain-01.png using Guid(debd6f7493e1cb84faec81df0d6b5347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84badc02ef4fd5fd9ceecc9f55d425b') in 0.038966 seconds 
+  Import took 0.044186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-04.png
+  artifactKey: Guid(90aa4c83c58885a4db2eab3131db5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-04.png using Guid(90aa4c83c58885a4db2eab3131db5fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c671eca3fccc98093470c34dd8cccb4b') in 0.056133 seconds 
+  Import took 0.062158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-tree-01.png
+  artifactKey: Guid(3e45b1aac8742d9439d4aad5b4444322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-tree-01.png using Guid(3e45b1aac8742d9439d4aad5b4444322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a24870056ed4eae5c882dd04a9f0f4d7') in 0.084179 seconds 
+  Import took 0.099097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-02.png
+  artifactKey: Guid(33285c4c7c5866b4e84e0438b948dbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-02.png using Guid(33285c4c7c5866b4e84e0438b948dbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b8286b39baba895c81976c58e3ba46') in 0.036184 seconds 
+  Import took 0.045715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-tree-02.png
+  artifactKey: Guid(107b176480bf2424ab6d6478538622ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-tree-02.png using Guid(107b176480bf2424ab6d6478538622ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e8546793794055992e9ea0c1de4a20') in 0.088448 seconds 
+  Import took 0.097774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-tree-03.png
+  artifactKey: Guid(29d4258655d164a498b81cc5faee6ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-tree-03.png using Guid(29d4258655d164a498b81cc5faee6ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbed0faadfb1951c1c04c1a70c240e8') in 0.082201 seconds 
+  Import took 0.092636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-mountain-02.png
+  artifactKey: Guid(e6493c0c28ba93d49a19ae7b054bf96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-mountain-02.png using Guid(e6493c0c28ba93d49a19ae7b054bf96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c253cd84a6659ec84c9809bf791976') in 0.049249 seconds 
+  Import took 0.055980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-03.png
+  artifactKey: Guid(6539f7f00d237844e811b0e6e37e7408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-03.png using Guid(6539f7f00d237844e811b0e6e37e7408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b416d41c603bbc181e813e17d3791e') in 0.050777 seconds 
+  Import took 0.060309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-05.png
+  artifactKey: Guid(e91ff8f1586ab934d9a16b2a77da2667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/cloud-05.png using Guid(e91ff8f1586ab934d9a16b2a77da2667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb71ad5baafb00a29f8dd5d39b8c0380') in 0.068818 seconds 
+  Import took 0.074556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-sky.png
+  artifactKey: Guid(c8709b95154255c4c9d8c2e8c226de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/backgrounds/jungle-sky.png using Guid(c8709b95154255c4c9d8c2e8c226de5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0585a584e541671f64d62379816c25') in 0.054650 seconds 
+  Import took 0.067238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.954959 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks
+  artifactKey: Guid(89d20555ffe14e04abea331de0470058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks using Guid(89d20555ffe14e04abea331de0470058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5de43451294fbf6576deee8b15a2371') in 0.005627 seconds 
+  Import took 0.014481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.157278 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-01.png
+  artifactKey: Guid(d9b8dfbb10ebedb4d98a0b24268523c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-01.png using Guid(d9b8dfbb10ebedb4d98a0b24268523c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d4f9769de5091db746b7d13a01716b') in 0.034731 seconds 
+  Import took 0.042327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000413 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-01.png
+  artifactKey: Guid(e266c29e17b61684fa9f78a108268b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-01.png using Guid(e266c29e17b61684fa9f78a108268b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0356b53d2e02a599105b4bd3d4933a') in 0.039374 seconds 
+  Import took 0.047231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-02.png
+  artifactKey: Guid(e7055d889a34dfd48b43ac75b7e1b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-02.png using Guid(e7055d889a34dfd48b43ac75b7e1b635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc2bd594d13de4db021ba0cbaaf93b4') in 0.055425 seconds 
+  Import took 0.062450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-04.png
+  artifactKey: Guid(3286049c5ba08934bb60e09f9b8611c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-04.png using Guid(3286049c5ba08934bb60e09f9b8611c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08518332811f8ea95cd93c02a4f363d') in 0.057437 seconds 
+  Import took 0.063887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-08.png
+  artifactKey: Guid(6e3cb40d5dfda4146b912d977c0616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-08.png using Guid(6e3cb40d5dfda4146b912d977c0616aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e2907bb888e931c4444f8290f95b55') in 0.049556 seconds 
+  Import took 0.056599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-09.png
+  artifactKey: Guid(9675609ab6dcdb94db2bd72719e39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-09.png using Guid(9675609ab6dcdb94db2bd72719e39fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb3d55c1810d66fd8bd99246abb4c69') in 0.053313 seconds 
+  Import took 0.065465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001307 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-04.png
+  artifactKey: Guid(9475a4796ab676345a808dfe2b305df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-04.png using Guid(9475a4796ab676345a808dfe2b305df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0928cdb8dea5934c48ed6e364092b30a') in 0.036844 seconds 
+  Import took 0.047193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-08.png
+  artifactKey: Guid(46d5c2efdf5cb944c919965a73807397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-08.png using Guid(46d5c2efdf5cb944c919965a73807397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2872f03c595766c601b4fc146b3c86') in 0.054926 seconds 
+  Import took 0.062396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-07.png
+  artifactKey: Guid(3e27c65452c315b4eb9331aea0539c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-07.png using Guid(3e27c65452c315b4eb9331aea0539c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2f0d4a29debeea3f1396c1eb9f6745') in 0.028606 seconds 
+  Import took 0.034752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-06.png
+  artifactKey: Guid(a4e70eccb1b9d9241b46bd5692fbe0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-06.png using Guid(a4e70eccb1b9d9241b46bd5692fbe0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee49c8bf612202994522488be0ed6b9') in 0.045020 seconds 
+  Import took 0.050770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-05.png
+  artifactKey: Guid(2bb2cbc5b3e3bfd48801156a28986337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-05.png using Guid(2bb2cbc5b3e3bfd48801156a28986337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833d1c995fee1f0e5629158508a95875') in 0.063206 seconds 
+  Import took 0.071000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-06.png
+  artifactKey: Guid(894d77d9fa032ae43bb1134b9a404ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-06.png using Guid(894d77d9fa032ae43bb1134b9a404ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be86a56de14d290bbaeb6d909001cdd7') in 0.055056 seconds 
+  Import took 0.062292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-07.png
+  artifactKey: Guid(abe7b7d2f022d0d4797f07bc412dde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-07.png using Guid(abe7b7d2f022d0d4797f07bc412dde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b2f1245221b311139ad55b860da137') in 0.054984 seconds 
+  Import took 0.061385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-03.png
+  artifactKey: Guid(f5b0ea2a02fcd16468902c80a62df2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-03.png using Guid(f5b0ea2a02fcd16468902c80a62df2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d284fe7da8968e8629153728a32370') in 0.026808 seconds 
+  Import took 0.035939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-03.png
+  artifactKey: Guid(e134fff17a4cce742aa0a5be5c1103bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-03.png using Guid(e134fff17a4cce742aa0a5be5c1103bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c234113b5c2b4b551c8b3c3cd3c4732') in 0.033298 seconds 
+  Import took 0.040110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-05.png
+  artifactKey: Guid(48c2c72ef046a234992427ddc2e87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-05.png using Guid(48c2c72ef046a234992427ddc2e87b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced1af9b783103121e760e120b17d0c2') in 0.050425 seconds 
+  Import took 0.057200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-09.png
+  artifactKey: Guid(043e06644078a694580a86ffbd77555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-09.png using Guid(043e06644078a694580a86ffbd77555d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf64ee6ee7d2b74cb0d773ad67ef28a1') in 0.065099 seconds 
+  Import took 0.072819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-02.png
+  artifactKey: Guid(0b8cc59e403c82e4f9a7ee67cd1cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brutal 2D Adventure Mega Pack/Brutal 2D Adventure Jungle Pack/day/platform-blocks/platform-block-back-02.png using Guid(0b8cc59e403c82e4f9a7ee67cd1cbc74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3acc1ea7fe6ef0f192bebd51056929') in 0.035250 seconds 
+  Import took 0.044380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.174269 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(646e8b7f520114fdf9f19e3eb56855c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 1.unity using Guid(646e8b7f520114fdf9f19e3eb56855c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bbc5901996f5e8caaba457aad7bd17') in 0.007876 seconds 
+  Import took 0.015168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.972586 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8d1d02796abd5ae11252c9780452bd') in 0.005442 seconds 
+  Import took 0.016699 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.254 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2254ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (1907ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (696ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (720ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (225ms)
+				ProcessInitializeOnLoadAttributes (461ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2554 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.7 MB.
+System memory in use after: 220.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3086.
+Total: 5.545361 ms (FindLiveObjects: 0.421075 ms CreateObjectMapping: 0.300196 ms MarkObjects: 4.796687 ms  DeleteObjects: 0.025919 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
